@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+dnIGvtCNlXWrYaTMFkZXb6n1kEZBwyzHKGuG/cCElV5edDseaYso0jKOUUVSw9KLYJb4csnm7gXxUrU5LSndg==",
+  "dgSpecHash": "YaEnO6wLINJlA3QB01iwH332Cph0Q1FS5HEnoYPpiqEes5vwzPjEXWRtyudqU9WQXOGakcIznDBQ+4sL4T1WgA==",
   "success": true,
   "projectFilePath": "E:\\DBMS Mini Project\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Naryana Murthy B\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\Naryana Murthy B\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.117\\stub.system.data.sqlite.core.netstandard.1.0.117.nupkg.sha512",
+    "C:\\Users\\Naryana Murthy B\\.nuget\\packages\\system.data.sqlite.core\\1.0.117\\system.data.sqlite.core.1.0.117.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -314,6 +314,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tabControlMain);
+            this.MinimumSize = new System.Drawing.Size(816, 488);
             this.Name = "MainWindow";
             this.Text = "Library Management System";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

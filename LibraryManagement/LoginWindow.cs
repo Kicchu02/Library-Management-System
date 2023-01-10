@@ -12,7 +12,7 @@ namespace LibraryManagement
             string loginId = textBoxLoginID.Text;
             string password = textBoxPassword.Text;
 
-            if (loginId.Equals("Admin") && password.Equals("1234"))
+            if (SqliteDataAccess.Authorize(loginId, password))
             {
                 // MessageBox.Show("Login Successful");
                 MainWindow mainWindow = new MainWindow();
