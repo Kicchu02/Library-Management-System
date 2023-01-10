@@ -33,9 +33,14 @@ namespace LibraryManagement
 
         private void linkLabelSourceCodeLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/Kicchu02/Library-Management-System.git");
+            // System.Diagnostics.Process.Start("https://github.com/Kicchu02/Library-Management-System.git");
             // ProcessStartInfo processStartInfo = new ProcessStartInfo("https://github.com/Kicchu02/Library-Management-System.git");
             // Process.Start(processStartInfo);
+        }
+
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            System.Environment.Exit(0);
         }
     }
 }

@@ -16,3 +16,4 @@ E:\DBMS Mini Project\LibraryManagement\LibraryManagement\obj\Debug\net6.0-window
 E:\DBMS Mini Project\LibraryManagement\LibraryManagement\obj\Debug\net6.0-windows\ref\LibraryManagement.dll
 E:\DBMS Mini Project\LibraryManagement\LibraryManagement\obj\Debug\net6.0-windows\LibraryManagement.formLoginWindow.resources
 E:\DBMS Mini Project\LibraryManagement\LibraryManagement\obj\Debug\net6.0-windows\LibraryManagement.MainWindow.resources
+E:\DBMS Mini Project\LibraryManagement\LibraryManagement\bin\Debug\net6.0-windows\DemoDB.db

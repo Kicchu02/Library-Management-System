@@ -31,7 +31,6 @@
             this.tabControlMain = new System.Windows.Forms.TabControl();
             this.tabPageBookDetails = new System.Windows.Forms.TabPage();
             this.panelBookDetailsTable = new System.Windows.Forms.Panel();
-            this.labelBookDetailsTablePlaceHolder = new System.Windows.Forms.Label();
             this.buttonApplyFilter = new System.Windows.Forms.Button();
             this.labelFilters = new System.Windows.Forms.Label();
             this.textBoxPublishedYear = new System.Windows.Forms.TextBox();
@@ -41,13 +40,11 @@
             this.textBoxBookID = new System.Windows.Forms.TextBox();
             this.tabPageStudentDetails = new System.Windows.Forms.TabPage();
             this.panelStudentDetailsTable = new System.Windows.Forms.Panel();
-            this.labelPlaceHolderStudentDetails = new System.Windows.Forms.Label();
             this.buttonSearchStudentDetails = new System.Windows.Forms.Button();
             this.textBoxStudentUSN = new System.Windows.Forms.TextBox();
             this.labelStudentUSN = new System.Windows.Forms.Label();
             this.tabPageStaffDetails = new System.Windows.Forms.TabPage();
             this.panelStaffDetailsTable = new System.Windows.Forms.Panel();
-            this.labelPlaceHolderStaffDetailsTable = new System.Windows.Forms.Label();
             this.buttonGetStaffDetails = new System.Windows.Forms.Button();
             this.textBoxStaffID = new System.Windows.Forms.TextBox();
             this.labelStaffID = new System.Windows.Forms.Label();
@@ -57,11 +54,8 @@
             this.labelAboutInformation = new System.Windows.Forms.Label();
             this.tabControlMain.SuspendLayout();
             this.tabPageBookDetails.SuspendLayout();
-            this.panelBookDetailsTable.SuspendLayout();
             this.tabPageStudentDetails.SuspendLayout();
-            this.panelStudentDetailsTable.SuspendLayout();
             this.tabPageStaffDetails.SuspendLayout();
-            this.panelStaffDetailsTable.SuspendLayout();
             this.tabPageAbout.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -103,24 +97,10 @@
             this.panelBookDetailsTable.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelBookDetailsTable.Controls.Add(this.labelBookDetailsTablePlaceHolder);
             this.panelBookDetailsTable.Location = new System.Drawing.Point(6, 37);
             this.panelBookDetailsTable.Name = "panelBookDetailsTable";
             this.panelBookDetailsTable.Size = new System.Drawing.Size(756, 355);
             this.panelBookDetailsTable.TabIndex = 7;
-            // 
-            // labelBookDetailsTablePlaceHolder
-            // 
-            this.labelBookDetailsTablePlaceHolder.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelBookDetailsTablePlaceHolder.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelBookDetailsTablePlaceHolder.Location = new System.Drawing.Point(3, 0);
-            this.labelBookDetailsTablePlaceHolder.Name = "labelBookDetailsTablePlaceHolder";
-            this.labelBookDetailsTablePlaceHolder.Size = new System.Drawing.Size(750, 355);
-            this.labelBookDetailsTablePlaceHolder.TabIndex = 0;
-            this.labelBookDetailsTablePlaceHolder.Text = "Place holder for book details table";
-            this.labelBookDetailsTablePlaceHolder.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // buttonApplyFilter
             // 
@@ -196,21 +176,10 @@
             this.panelStudentDetailsTable.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelStudentDetailsTable.Controls.Add(this.labelPlaceHolderStudentDetails);
             this.panelStudentDetailsTable.Location = new System.Drawing.Point(6, 35);
             this.panelStudentDetailsTable.Name = "panelStudentDetailsTable";
             this.panelStudentDetailsTable.Size = new System.Drawing.Size(756, 357);
             this.panelStudentDetailsTable.TabIndex = 3;
-            // 
-            // labelPlaceHolderStudentDetails
-            // 
-            this.labelPlaceHolderStudentDetails.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelPlaceHolderStudentDetails.Location = new System.Drawing.Point(3, 0);
-            this.labelPlaceHolderStudentDetails.Name = "labelPlaceHolderStudentDetails";
-            this.labelPlaceHolderStudentDetails.Size = new System.Drawing.Size(750, 357);
-            this.labelPlaceHolderStudentDetails.TabIndex = 0;
-            this.labelPlaceHolderStudentDetails.Text = "Place holder for student details table";
-            this.labelPlaceHolderStudentDetails.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // buttonSearchStudentDetails
             // 
@@ -258,24 +227,10 @@
             this.panelStaffDetailsTable.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelStaffDetailsTable.Controls.Add(this.labelPlaceHolderStaffDetailsTable);
             this.panelStaffDetailsTable.Location = new System.Drawing.Point(6, 35);
             this.panelStaffDetailsTable.Name = "panelStaffDetailsTable";
             this.panelStaffDetailsTable.Size = new System.Drawing.Size(756, 357);
             this.panelStaffDetailsTable.TabIndex = 3;
-            // 
-            // labelPlaceHolderStaffDetailsTable
-            // 
-            this.labelPlaceHolderStaffDetailsTable.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelPlaceHolderStaffDetailsTable.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelPlaceHolderStaffDetailsTable.Location = new System.Drawing.Point(3, 0);
-            this.labelPlaceHolderStaffDetailsTable.Name = "labelPlaceHolderStaffDetailsTable";
-            this.labelPlaceHolderStaffDetailsTable.Size = new System.Drawing.Size(750, 357);
-            this.labelPlaceHolderStaffDetailsTable.TabIndex = 0;
-            this.labelPlaceHolderStaffDetailsTable.Text = "Place holder for staff details table";
-            this.labelPlaceHolderStaffDetailsTable.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // buttonGetStaffDetails
             // 
@@ -360,17 +315,15 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tabControlMain);
             this.Name = "MainWindow";
-            this.Text = "MainWindow";
+            this.Text = "Library Management System";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.tabControlMain.ResumeLayout(false);
             this.tabPageBookDetails.ResumeLayout(false);
             this.tabPageBookDetails.PerformLayout();
-            this.panelBookDetailsTable.ResumeLayout(false);
             this.tabPageStudentDetails.ResumeLayout(false);
             this.tabPageStudentDetails.PerformLayout();
-            this.panelStudentDetailsTable.ResumeLayout(false);
             this.tabPageStaffDetails.ResumeLayout(false);
             this.tabPageStaffDetails.PerformLayout();
-            this.panelStaffDetailsTable.ResumeLayout(false);
             this.tabPageAbout.ResumeLayout(false);
             this.tabPageAbout.PerformLayout();
             this.ResumeLayout(false);
@@ -393,17 +346,14 @@
         private Button buttonApplyFilter;
         private Label labelFilters;
         private Panel panelBookDetailsTable;
-        private Label labelBookDetailsTablePlaceHolder;
         private Label labelStudentUSN;
         private Panel panelStudentDetailsTable;
         private Button buttonSearchStudentDetails;
         private TextBox textBoxStudentUSN;
-        private Label labelPlaceHolderStudentDetails;
         private Panel panelStaffDetailsTable;
         private Button buttonGetStaffDetails;
         private TextBox textBoxStaffID;
         private Label labelStaffID;
-        private Label labelPlaceHolderStaffDetailsTable;
         private Label labelSourceCode;
         private LinkLabel linkLabelSourceCodeLink;
     }
